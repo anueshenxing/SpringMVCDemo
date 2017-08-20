@@ -145,11 +145,5 @@
 <script type="text/javascript">
     setNav(0);
 </script>
-
-
-</body>
-
-<body>
-
 </body>
 </html>
