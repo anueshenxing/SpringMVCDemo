@@ -130,7 +130,7 @@
 
 
                                 <img class="lazyload" alt="关注微信" data-original=""
-                                     src="/resources/images/weixin/weixin_barcode.jpg">
+                                     src="<c:url value='/resources/images/weixin/weixin_barcode.jpg'/>">
 
                             </h4>
                             <p>关注微信</p>
