@@ -16,6 +16,7 @@
 
     <!-- 静态资源(js、image等)的访问 -->
     <mvc:default-servlet-handler/>
+    <mvc:resources mapping="/resources/**" location="/resources/"/>
 
     <!-- 开启注解 -->
     <mvc:annotation-driven/>
@@ -42,7 +43,7 @@
                 <prop key="hibernate.connection.driver_class">com.mysql.jdbc.Driver</prop>
                 <prop key="hibernate.connection.url">jdbc:mysql://localhost:3306/springdemo?useSSL=false</prop>
                 <prop key="hibernate.connection.username">root</prop>
-                <prop key="hibernate.connection.password">111111</prop>
+                <prop key="hibernate.connection.password">123456</prop>
                 <prop key="hibernate.show_sql">false</prop>
                 <prop key="hibernate.connection.useUnicode">true</prop>
                 <prop key="hibernate.connection.characterEncoding">UTF-8</prop>
