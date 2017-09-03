@@ -1,5 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <%--
   Created by IntelliJ IDEA.
   User: 张晓磊
@@ -7,7 +7,6 @@
   Time: 23:32
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -35,14 +34,14 @@
     <div class="Menu">
         <div class="wrap clearfix">
             <div class="logo">
-                <a href="/">
+                <a href="${pageContext.request.contextPath}/">
                     <img alt="" class="lazyload"
                          src="<c:url value='/resources/images/huiqun_logo.jpg'/>" style="display: inline;"></a>
             </div>
 
             <div class="Nav">
                 <ul class="clearfix">
-                    <li class="on"><a href="/">首页</a></li>
+                    <li class="on"><a href="${pageContext.request.contextPath}/">首页</a></li>
 
                     <li>
                         <a href="">营销活动</a>
@@ -61,7 +60,7 @@
                     </li>
 
                     <li>
-                        <a href="/huiqun_info">关于汇群</a>
+                        <a href="${pageContext.request.contextPath}/huiqun_info">关于汇群</a>
                     </li>
 
                 </ul>
@@ -70,11 +69,10 @@
     </div>
 </div>
 
-
 <div class="banner">
     <div class="bd">
         <div class="tempWrap" style="overflow: hidden; position: relative; width: auto;">
-            <ul style="width: 8094px; left: -1349px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
+            <ul style="width: 8094px; left: -1349px; position: relative; overflow: hidden; padding: 0; margin: 0;">
                 <li style="float: left; width: 1349px;"><a target="_blank"
                                                            href="http://www.xydec.com.cn/ccbbank.html">
                     <img alt="" src="<c:url value='/resources/images/slideshow/201702210943108999965.jpg'/>"></a></li>
