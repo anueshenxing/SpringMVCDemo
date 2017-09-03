@@ -35,14 +35,14 @@
     <div class="Menu">
         <div class="wrap clearfix">
             <div class="logo">
-                <a href="http://www.xydec.com.cn/Default.aspx">
+                <a href="/">
                     <img alt="" class="lazyload"
                          src="<c:url value='/resources/images/huiqun_logo.jpg'/>" style="display: inline;"></a>
             </div>
 
             <div class="Nav">
                 <ul class="clearfix">
-                    <li class="on"><a href="">首页</a></li>
+                    <li class="on"><a href="/">首页</a></li>
 
                     <li>
                         <a href="">营销活动</a>
@@ -61,7 +61,7 @@
                     </li>
 
                     <li>
-                        <a href="">关于汇群</a>
+                        <a href="/huiqun_info">关于汇群</a>
                     </li>
 
                 </ul>
